@@ -1,4 +1,4 @@
-# E-bebek Hiring Task - Proje Dokümantasyonu
+# Hiring Task - Proje Dokümantasyonu
 
 ## 📋 Proje Hakkında
 
