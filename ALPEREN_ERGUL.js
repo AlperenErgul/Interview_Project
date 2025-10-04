@@ -13,7 +13,7 @@
 
   const isCorrectPage = () => {
     const currentUrl = window.location.href;
-    const trueUrl = "https://www.e-bebek.com";
+    const trueUrl = "https://www.e-bebek.com/";
 
     if(currentUrl !== trueUrl){
         console.log("Yanlış Sayfa, lütfen kodu https://www.e-bebek.com adresinde çalıştırın");
@@ -88,10 +88,17 @@
                 display: flex;
                 flex-direction: column;
                 position: relative;
+                width: 100%; 
+            }
+
+            @media (max-width: 1280px) and (min-width: 1100px) {
+               .carousel-main-section{
+                    width: 105%;
+                }
             }
 
             .carousel-section{
-                
+
                 display: flex;
                 align-items: center;
                 width: 100%;
@@ -111,6 +118,12 @@
                 margin-top: 10px;
                 display: flex;
                 transition: transform 0.3s ease;
+            }
+
+            @media (max-width: 1000px){
+               .carousel-body{
+                    width: inherit;
+                }
             }
 
             .carousel-arrow {
@@ -146,6 +159,36 @@
                 padding: 0 12.5px;
             }
 
+            @media (max-width: 1150px) {
+                .carousel-card {
+                    padding: 0 5px; 
+                }
+            }
+
+            
+            @media (max-width: 1480px) {
+                .carousel-card {
+                    min-width: 25%; 
+                }
+            }
+
+
+            @media (max-width: 1280px) {
+                .carousel-card {
+                min-width: 33.333%;
+                }
+            }
+
+
+            @media (max-width: 1055px) {
+                .carousel-card {
+                    min-width: 50%;
+                }
+            }
+
+
+            
+
             .card-upper-content{
                 background-color: white;
                 width: 100%;
@@ -154,7 +197,9 @@
                 position: relative;
                 cursor: pointer;
                 border-radius: 8px;
-
+                display: flex;
+                flex-direction: column;
+                height: 100%;
             }
 
             .card-upper-content:hover {
@@ -174,6 +219,9 @@
 
             .card-content {
                 padding: 8px;
+                flex: 1;
+                display: flex;
+                flex-direction: column;
             }
 
             .card-title {
@@ -202,7 +250,8 @@
             }
 
             .card-bottom{
-                margin-top: 100px;
+                margin-top: auto; /* Alt kısımda sabit kalmasını sağla */
+                padding-top: 10px;
             }
 
             .card-bottom .original-price .price-container {
