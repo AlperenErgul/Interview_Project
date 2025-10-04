@@ -4,18 +4,10 @@
 
 Bu proje, işe alım görevi kapsamında geliştirilmiştir. Projenin temel amacı, E-bebek ana sayfasında kullanılan ürün carousel bileşeninin yeniden oluşturulmasıdır.
 
-## ⚠️ Önemli Not
-
-Proje geliştirme sürecinde **E-bebek.com web sitesine erişim sorunu** yaşanmıştır. Sunucu hatası nedeniyle siteye erişemediğim için bazı testler ve responsive tasarım optimizasyonları tamamlanamamıştır. Ancak projenin temel fonksiyonlarının tamamı başarıyla geliştirilmiştir.
-
 ### Mevcut Durum
 - ✅ Masaüstü görünüm tamamlandı (Belirtmek isterimki ben monitör kullandığımdan dolayı malesef henüz laptop ekranında nasıl göründüğünü de test edemedim)
 - ✅ Fonksiyonel özellikler tamamlandı
-- ⏳ Responsive tasarım beklemede (site erişimi sağlandığında tamamlanacak)
-- ⏳ Son testler beklemede
-
-Siteye ulaşamadığmı aşşağıdaki fotoğraf ile göstermek isterim;
-<img width="1865" height="1394" alt="Screenshot_4" src="https://github.com/user-attachments/assets/ef59e496-5f26-42ec-8150-e7e20b75d955" />
+- ✅ Responsive tasarım hazırlandı
 
 ## ✨ Tamamlanan Özellikler
 
@@ -40,7 +32,7 @@ Siteye ulaşamadığmı aşşağıdaki fotoğraf ile göstermek isterim;
 - Görsel geri bildirim (turuncu renk ile dolu kalp)
 
 ### 5. Güvenlik ve Kısıtlamalar
-- Kod sadece `https://www.e-bebek.com` domain'inde çalışacak şekilde yapılandırıldı
+- Kod sadece `https://www.e-bebek.com/` domain'inde çalışacak şekilde yapılandırıldı
 - Diğer URL'lerde "Yanlış Sayfa" hatası gösterilir
 
 ## 🛠️ Teknik Detaylar
@@ -56,3 +48,11 @@ Siteye ulaşamadığmı aşşağıdaki fotoğraf ile göstermek isterim;
 ```javascript
 // İlk yükleme: API'den veri çekme
 // Sonraki yüklemeler: Local Storage'den veri okuma
+````
+
+### Nasıl kullanılır
+1. https://www.e-bebek.com/'a gidin
+2. Console'i açın
+3. Kodu yapıştırın
+4. Enter'e basın
+5. Test edin
