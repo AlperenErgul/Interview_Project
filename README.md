@@ -4,11 +4,6 @@
 
 Bu proje, işe alım görevi kapsamında geliştirilmiştir. Projenin temel amacı, E-bebek ana sayfasında kullanılan ürün carousel bileşeninin yeniden oluşturulmasıdır.
 
-### Mevcut Durum
-- ✅ Masaüstü görünüm tamamlandı (Belirtmek isterimki ben monitör kullandığımdan dolayı malesef henüz laptop ekranında nasıl göründüğünü de test edemedim)
-- ✅ Fonksiyonel özellikler tamamlandı
-- ✅ Responsive tasarım hazırlandı
-
 ## ✨ Tamamlanan Özellikler
 
 ### 1. Carousel Bileşeni
@@ -34,6 +29,15 @@ Bu proje, işe alım görevi kapsamında geliştirilmiştir. Projenin temel amac
 ### 5. Güvenlik ve Kısıtlamalar
 - Kod sadece `https://www.e-bebek.com/` domain'inde çalışacak şekilde yapılandırıldı
 - Diğer URL'lerde "Yanlış Sayfa" hatası gösterilir
+
+### Sitede yer alan orjinal carousel:
+<img width="1448" height="475" alt="image" src="https://github.com/user-attachments/assets/1a9efaf7-6f59-445a-8f7a-cf0657c647f9" />
+
+### Benim geliştirdiğim Carousel:
+<img width="1438" height="417" alt="image" src="https://github.com/user-attachments/assets/ff5985ee-5547-4f98-b663-4875b3cbeed7" />
+
+
+
 
 ## 🛠️ Teknik Detaylar
 
